@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .news-ticker {
+            display: flex;
+            align-items: center;
+            background-color: #388fe6; /* Biru tua untuk latar belakang */
+            color: white;
+            overflow: hidden;  
+            white-space: nowrap;
+            padding: 10px;
+            font-size: 18px;
+        
+        }
+        .news-ticker .marquee {
+            display: inline-block;
+            animation: scroll 30s linear infinite;
+
+        }
+
+         .news-ticker .label {
+            background-color: #f76d6d; /* Warna merah untuk label "BERITA TERKINI" */
+            padding: 5px 15px;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+        @keyframes scroll {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+/* Container for the image */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Center elements vertically if needed */
+}
+
+/* Clickable image styling */
+.clickable-image img {
+  width: 950px; /* Adjust the size of the image */
+  height: 400px; /* Keep aspect ratio */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20PX;
+}
+
+/* Hover effect */
+.clickable-image img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+       
+    </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css" />
+    <title></title>
+  </head>
+  <body>
+    <div class="news-ticker">
+      <div class="label">BERITA SEJARAH</div>
+      <div class="marquee">Bukti-bukti adanya agama Hindu-Buddha di Indonesia.... | Agama Hindu adalah agama yang paling tua di antara agama lain.... | Agama Hindu-Buddha sudah ada di Indonesia sejak abad ke-5 masehi.... | Sebelum agama Hindu-Buddha masuk ke Indonesia warga lokal telah menganut kepercayaan Animisme dan Dinamisme.... </div></div>
+    <nav>
+      <div class="nav__logo">Berita Sejarah</div>
+      <ul class="nav__links">
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="Teori.html">Teori</a></li>
+        <li class="link"><a href="bukti.html">Bukti</a></li>
+        <li class="link"><a href="akulturasi.html">akulturasi</a></li>
+      </ul>
+    </nav>
+    <header class="section__container header__container">
+      <div class="header__image__container">
+        <div class="header__content">
+          <h1>Portal Berita Sejarah</h1>
+          <p>Berita Sejarah yang lengkap, Rinci, dan Terpercaya</p>
+        </div>
+        <div class="booking__container">
+          <form>
+            <div class="form__group">
+              <div class="input__group">
+                <input type="text" />
+                <label>Berita Terkini</label>
+              </div>
+              <p>Isi di sininya......</p>
+            </div>
+            <div class="form__group">
+              <div class="input__group">
+                <input type="text" />
+                <label>Teori</label>
+              </div>
+              <p>Isi di sininya......</p>
+            </div>
+            <div class="form__group">
+              <div class="input__group">
+                <input type="text" />
+                <label>Bukti peninggalan </label>
+              </div>
+              <p>Isi di sininya......</p>
+            </div>
+            <div class="form__group">
+              <div class="input__group">
+                <input type="text" />
+                <label>Akulturasi</label>
+              </div>
+              <p>Isi di sininya......</p>
+            </div>
+          </form>
+          <button class="btn"><i class="ri-search-line"></i></button>
+        </div>
+      </div>
+    </header>
+
+    <h2 class="section__header">MASUKNYA AGAMA HINDU-BUDDHA DI INDONESIA</h2>
+      <div class="main-container">
+         <a href="Teori.html" class="clickable-image">
+         <img src="teori 2.jpg" alt="teori masuknya agama Hindu-Budha ke indonesia"></a>
+      </div>
+    
+      <div class="main-container">
+      <a href="bukti.html" class="clickable-image">
+      <img src="baru bukti.jpg" alt="bukti-bukti masuknya agama Hindu-Budha ke indonesia"></a>
+     </div>
+     
+     <div class="main-container">
+          <a href="akulturasi.html" class="clickable-image">
+          <img src="baru akulturasi.jpg" alt="akulturasi masuknya agama Hindu-Budha ke indonesia"></a>
+      </div>
+     
+     
+     <section class="client">
+      <div class="section__container client__container">
+        <h2 class="section__header">PEMBUAT</h2>
+        <div class="client__grid">
+          <div class="client__card">
+            <img src="foto awal.jpg" alt="client" />
+            <p>
+              <ul type="None">
+                 <li>Nama : Awalyna Anggraini Febryani </li>
+                 <li>Kelas : X PPLG 1</li>
+                 <li>Absen :  05</li>
+                 <li>Hobi : Main</li>
+                 <li>No telp : 0882-0069-88734</li>
+              </ul>
+            </p>
+          </div>
+          <div class="client__card">
+            <img src="foto linda.jpg" alt="client" />
+            <p>
+              <ul type="None">
+                 <li> Nama : Oktavia Linda Sari</li> 
+                 <li>Kelas : X PPLG 1</li>
+                 <li>Absen : 28</li>
+                 <li>Hobi : Memasak</li>
+                 <li>No telp : 0895-2401-9385</li>
+              </ul>
+            </p>
+          </div>
+          <div class="client__card">
+            <img src="foto aldi.jpg" alt="client" />
+            <p>
+              <ul type="None">
+                <li> Nama : Muhammad Aldi Ria</li> 
+                <li>Kelas : X PPLG 1</li>
+                <li>Absen : 21</li>
+                <li>Hobi : Badminton</li>
+                <li>No telp : 0838-2115-4657</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h3>Portal berita</h3>
+          <p>
+            Portal berita adalah suatu halaman website yang menyediakan informasi tentang suatu kejadian 
+            terbaru atau kejadian yang sudah terjadi. Informasi yang disampaikan tidak jauh berbeda dengan 
+            informasi yang ada pada media cetak, hanya saja pada media internet atau disebut juga sebagai
+            media online.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Pembuat</h4>
+          <p>Kelompok 4</p>
+          <p>Awalyna</p>
+          <p>M. aldi ria</p>
+          <p>Linda</p>
+        </div>
+        <div class="footer__col">
+          <h4>Legal</h4>
+          <p>Smk N 1 Tengaran</p>
+          <p>Terms & Conditions</p>
+          <p>Privacy Policy</p>
+        </div>
+        <div class="footer__col">
+          <h4>Media Sosial</h4>
+          <p>Tik tok : <a href="https://smkn1tengaran.sch.id/">smkn1tengaran</a></p>
+          <p>Instagram : <a href="https://www.instagram.com/smkn1tengaran_bisa/profilecard/?igsh=Yng5aHVncnR5aGlr">smkn1tengaran_bisa</a></p>
+          <p>Youtube : <a href="https://youtube.com/@xsatatv?si=saiZsu-RINRehEPd">SMKN 1 TENGARAN</a></p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Berita sejarah. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
